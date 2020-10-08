@@ -7,3 +7,11 @@ function myFunction() {
     x.className = x.className.replace(" w3-show", "");
   }
 }
+
+
+new Vue({
+  el: '#app',
+  data: {
+    message: 'Hello Vue.js!'
+  }
+})
